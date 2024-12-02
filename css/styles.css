@@ -1,2 +1,2 @@
-/* Base styles */
-:root{--primary:#4C51BF;--bg:#fff}*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif}
+/* Main styles */
+:root{--primary-color:#4C51BF;--primary-dark:#434190;--text-dark:#2D3748;--text-light:#4A5568;--bg-light:#F7FAFC;--white:#FFFFFF;--shadow-sm:0 2px 4px rgba(0,0,0,0.05);--shadow-md:0 4px 6px rgba(0,0,0,0.1);--shadow-lg:0 10px 15px rgba(0,0,0,0.1)}*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.6;color:var(--text-dark)}.container{max-width:1200px;margin:0 auto;padding:0 5%}.header{position:fixed;top:0;left:0;right:0;background:rgba(255,255,255,0.98);box-shadow:var(--shadow-sm);z-index:1000}.nav-container{display:flex;justify-content:space-between;align-items:center;padding:1rem 5%;max-width:1200px;margin:0 auto}
